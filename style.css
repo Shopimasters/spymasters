@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Big+Shoulders+Display:wght@600&display=swap');
+
+/* Reset y Fondo */
+.stApp { background: #111111; }
+header, footer, [data-testid="stHeader"] { display: none !important; }
+.main .block-container { max-width: 800px; padding-top: 3rem; } /* Ancho ampliado para logo 250px */
+
+.stApp {
+    background: radial-gradient(circle at top right, #0a2e1f 0%, #111111 40%);
+}
+
+/* Alineación vertical perfecta para logo grande */
+[data-testid="stHorizontalBlock"] {
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif !important;
+    font-size: 3.5rem !important;
+    color: #FFFFFF !important;
+    margin: 0 !important;
+    line-height: 1.1 !important;
+    padding-bottom: 2rem !important;
+}
+
+p {
+    font-family: 'Archivo', sans-serif !important;
+    color: #C3C8CC !important;
+}
+
+/* Estilo de Inputs y Botones */
+div[data-baseweb="input"] {
+    background-color: #222222 !important;
+    border: 1px solid #444444 !important;
+    border-radius: 0px !important;
+}
+
+.stButton>button {
+    background-color: #00dd73 !important;
+    color: #1A191B !important;
+    font-family: 'Archivo', sans-serif !important;
+    font-weight: 600 !important;
+    border-radius: 0px !important;
+}
+
+.stButton>button p { color: #1A191B !important; }
